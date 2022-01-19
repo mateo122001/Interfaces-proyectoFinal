@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Pagina web 1</title>
+    <meta name="author" content="Mateo P">
+    <meta name="description" content="Pagina web">
+    <meta name="keywords" content="Pagina, sitio web, web">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <div class="form-register" >
+            <div class="oxe">
+            
+                <h3 class="oxe1">Oxe</h3>
+            </div>
+       
+  
+        <h2 class="controls">Registro </h2>
+        <input class="controls"  type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre" ><br>
+        <input class="controls"  type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellido" ><br>
+        <input class="controls"  type="password" name="contraseña" id="contraseña" placeholder="cree una contraseña" ><br>
+        <input class="controls"  type="password" name="ccontraseña" id="ccontraseña" placeholder="confirme su contraseña" ><br>
+        <input class="controls"  type="text" name="sexo" id="sexo" placeholder="Ingrese su sexo" ><br>
+        <input class="controls"  type="text" name="ciudad" id="ciudad" placeholder="Ingrese su ciudad" ><br>
+
+        <p class="acuerdo">Estoy de acuerdo con los<a href="#"> Terminos y condiciones</a></p>
+        <input class="boton" type="submit" value="Registrar">
+        <p class="ya"><a href="#">Ya tengo cuenta?</a></p>
+
+ 
+        <footer> <p class="nu">Información&nbsp;&nbsp;&nbsp;&nbsp;Blog&nbsp;&nbsp;&nbsp;&nbsp;Ayuda&nbsp;&nbsp;&nbsp;&nbsp;Condiciones y privacidad&nbsp;&nbsp; <a class="a" href="https://www.facebook.com/"><img src="images/Facebook.png" width="24" height="24"></a>&nbsp;&nbsp;<a class="a" href="https://www.facebook.com/" ><img src="images/Instagram.png" width="24" height="26"></a></p>
+    
+        </div>
+        </footer>
+     
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(images/Camara.jpg);
+
+  
+}
+.form-register{
+width: 500px;
+height:620px;
+background: #8E44AD;
+border-radius: 20px;
+margin: auto;
+margin-top: 30px;
+z-index: 20;
+}
+.oxe{
+    width: 500px;
+    margin:auto;
+    color: white;
+    text-align:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    opacity: 100px;
+
+    
+}
+.oxe1{
+  display: inline-block;
+  background: #8E44AD;
+  margin-right: 400px;
+  padding:2px;
+  padding-right: 3px;
+  padding-left:3px ;
+  border-radius: 10px;
+    
+}
+.form-register h2{
+    margin-top: 20px;
+margin-left: 80px;
+
+
+}
+.controls{
+    margin-left: 120px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+}
+
+ .acuerdo{
+    margin-top: 10px;
+    margin-left: 80px;
+
+}
+.ya{
+    margin-top: 10px;
+    margin-left: 190px;
+
+}
+.boton{
+    margin-left: 210px;
+    margin-top: 10px;
+    border-radius: 4px;
+    color: white;
+    background: black;
+    padding: 2px;
+    
+}
+.form-register footer{
+
+    width: 500px;
+    margin:auto;
+    margin-top: 120px;
+    color: white;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.nu{
+    text-align: left;
+    margin-left: 10px;
+}
+.a{
+    margin-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
